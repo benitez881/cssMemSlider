@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(63, 61, 61);
+  font-family: "Courier New", Courier, monospace;
+  color: bisque;
+  font-size: 18px;
+}
 #slider {
   margin: 0 auto;
   width: 80%;
@@ -13,8 +21,8 @@
 }
 #slides {
   padding: 10px;
-  border: 3px solid #ccc;
-  background: #fff;
+  border: 3px solid bisque;
+  background: rgb(63, 61, 61);
   position: relative;
   z-index: 1;
 }
@@ -50,16 +58,28 @@
   color: #fff;
 }
 #slides .slide_1 {
-  background: #00171f;
+  background-image: url("./assets/not-my-code.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #slides .slide_2 {
-  background: #003459;
+  background-image: url("./assets/lion-mem.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #slides .slide_3 {
-  background: #007ea7;
+  background-image: url("./assets/fullstack.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #slides .slide_4 {
-  background: #00a8e8;
+  background-image: url("./assets/realize-bug.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #dots {
   margin: 0 auto;
