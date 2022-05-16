@@ -4,7 +4,7 @@ body {
   background-color: rgb(63, 61, 61);
   font-family: "Courier New", Courier, monospace;
   color: bisque;
-  font-size: 20.8px;
+  font-size: 1.3rem;
 }
 #slider {
   margin: 0 auto;
@@ -150,7 +150,7 @@ body {
     font-size: 1rem;
   }
   #dots label {
-    padding: 7px;
+    padding: 0.4375rem;
   }
 }
 /* 900 */
@@ -159,7 +159,7 @@ body {
     font-size: 0.9rem;
   }
   #dots label {
-    padding: 5px;
+    padding: 0.3125rem;
   }
 }
 /* 768 */
